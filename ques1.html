@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 1</title>
+    <link rel="stylesheet" href="SStyles.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="glass-container">
+        <img src="bubu asking.jpeg" alt="no img found" class="container-image">
+        <h1 class="title">A Little Question for You</h1>
+        <p class="message">How do you feel when I do childish things 😉?</p>
+        <div class="options">
+            <button class="glass-button yes" onclick="handleAnswer(true, 'ques2.html')">Obsessed with It😊</button>
+            <button class="glass-button no" onclick="handleAnswer(false, 'ques2.html')">Annoying</button>
+        </div>
+        <div id="response" class="response hidden"></div>
+    </div>
+    <script src="Sscript.js"></script>
+</body>
+</html>

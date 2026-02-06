@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Big Question</title>
+    <link rel="stylesheet" href="SStyles.css">
+</head>
+<body>
+    <div class="background"></div>
+    <div class="glass-container">
+        <img src="finally says yes.jpeg" alt="no img found" class="container-image">
+        <h1 class="title">Since we clearly have this kind of spark...</h1>
+        <p id="question" class="message">Will you make this Valentine's Day unforgettable... by saying yes to me?</p>
+        <div class="buttons">
+            <!-- <button id="yesBtn" class="glass-button yes">Yes! Forever</button>
+            <button id="noBtn" class="glass-button no">No</button> -->
+            <button class="glass-button yes" id="yesBtn" onclick="handleAnswer(true, 'celebrate.html')">Yes, Forever! 😊</button>
+            <button class="glass-button no" id="noBtn">Maybe Not</button>
+        </div>
+        <div id="response" class="response hidden"></div>
+        <!-- <div id="celebration" class="celebration hidden">Yay! I love you! 🎉</div> -->
+    </div>
+    <script src="Sscript.js"></script>
+</body>
+</html>
